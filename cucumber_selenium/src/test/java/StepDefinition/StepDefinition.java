@@ -24,6 +24,8 @@ public class StepDefinition {
 	public void validate_Login_application() throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
 	    title=driver.getTitle();
+	    System.out.println("title");
+	    System.out.println(title);
 	    
 	}
 
