@@ -32,7 +32,8 @@ public class StepDefinition {
 	@Then("^Login should be successful$")
 	public void login_should_be_successful() throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
-	  Assert.assertEquals("OrangeHRM", title);  
+	  Assert.assertEquals("OrangeHRM", title);
+		System.out.println("hi");
 	}
 
 }
